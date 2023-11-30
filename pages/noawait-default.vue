@@ -16,7 +16,7 @@ const asyncData1 = useAsyncData(
 
 <template>
   <div>
-    {{ asyncData.data ?? "Loading..." }}
-    {{ asyncData1.data ?? "Loading..." }}
+    {{ asyncData.data.value ?? "Loading..." }}
+    {{ asyncData1.data.value ?? "Loading..." }}
   </div>
 </template>
